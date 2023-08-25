@@ -5,7 +5,7 @@ on:
 jobs:
     cncf-playground-rollout:
         name: Update Meshery on CNCF playground
-        if: github.repository == 'meshery/meshery'
+        #if: github.repository == 'meshery/meshery'
         runs-on: ubuntu-latest 
         steps:
         - name: Pull latest images and restart containers
